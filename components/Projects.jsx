@@ -1,9 +1,9 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
-import propertyImage from '../public/assets/projects/property.jpg'
+import rudra from '../public/assets/rudra.jpg'
 import ProjectItems from './ProjectItems'
-import cryptoImg from '../public/assets/projects/crypto.jpg'
+import starbucks from '../public/assets/starbucks.jpg'
 
 const Projects = () => {
     return (
@@ -16,13 +16,15 @@ const Projects = () => {
                     What I've Built
                 </h2>
                 <div className='grid md:grid-cols-2 gap-8'>
-                    <ProjectItems title='Property Finder'
-                        backgroundImg={propertyImage}
-                        projectUrl='./property' />
+                    <ProjectItems title='Blogging Website'
+                        backgroundImg={rudra}
+                        type='NextJs | TailWindCSS | GraphCMS'
+                        projectUrl='https://rudra-rahulgore7.vercel.app/' />
 
-                    <ProjectItems title='Crypto App'
-                        backgroundImg={cryptoImg}
-                        projectUrl='./property' />
+                    <ProjectItems title='Starbucks Landing Page'
+                        backgroundImg={starbucks}
+                        type='HTML | CSS | JavaScript'
+                        projectUrl='https://rahulgore7.github.io/Starbucks-Landing/' />
                 </div>
             </div>
 

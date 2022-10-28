@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react'
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from 'react-icons/ai'
 import { FaLinkedin, FaGithub } from 'react-icons/fa'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
+import Logo from '../public/assets/logo3.png'
 
 const Navbar = () => {
     const [nav, setNav] = useState(false)
@@ -28,7 +29,7 @@ const Navbar = () => {
         <div className={shadow ? 'fixed w-full h-20 shadow-xl z-[100]' : 'fixed w-full h-20 z-[100]'}>
             <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
                 <Link href='/'>
-                    <Image className='cursor-pointer' src="/../public/assets/logo3.png" alt="/" width='80' height='50' />
+                    <Image className='cursor-pointer' src={Logo} alt="/" width='80' height='50' />
                 </Link>
 
                 <div>

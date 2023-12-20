@@ -11,7 +11,7 @@ const Main = () => {
                 <div>
                     <p className='uppercase text-sm tracking-widest text-gray-600'>Let's Build Something Together</p>
                     <h1 className='py-4 text-gray-700'>Hi,I'm <span className='text-[#5651e5]'>Rahul</span></h1>
-                    <h1 className='py-4 text-gray-700'>A Front-End Web Developer</h1>
+                    <h1 className='py-4 text-gray-700'>A Full Stack Web Developer</h1>
                     <p className='py-4 text-gray-600 max-w-[70%] m-auto'>I'm a front-end web developer specializing in building (and ocassionally designing) exceptional digital experiences. Currently I'm focused on building responsive front-end web applications while learning back-end technologies.</p>
 
                     <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
